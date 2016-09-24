@@ -1,0 +1,11 @@
+.settings/
+.classpath
+.project
+target/
+logs/
+data/
+.idea/
+high-availability.iml
+high-availability.ipr
+high-availability.iws
+build/

@@ -1,0 +1,27 @@
+#search api depends on these servers
+search.api.server.urls=http://192.168.0.100:8080/search.jsp, http://192.168.0.101:8080/search.jsp
+#timeout config to guarantee response time
+search.api.timeout.seconds=1
+#whether output status to log in every unavailable urls valid process
+status.log.enabled=true
+#unavailable schedule initial delay seconds
+unavailable.schedule.initial.delay.seconds=60
+#unavailable schedule period seconds
+unavailable.schedule.period.seconds=60
+#redis servers
+redis.servers=192.168.0.102:6379:b01cbe1209a545a7cdb, 192.168.0.103:6379:b01cbe1209a545a7cdb
+
+redis.pool.blockWhenExhausted=false
+redis.pool.jmxEnabled=false
+redis.pool.lifo=true
+redis.pool.maxIdle=8
+redis.pool.maxTotal=8
+redis.pool.maxWaitMillis=500
+redis.pool.minEvictableIdleTimeMillis=1800000
+redis.pool.minIdle=0
+redis.pool.numTestsPerEvictionRun=3
+redis.pool.softMinEvictableIdleTimeMillis=1800000
+redis.pool.testOnBorrow=true
+redis.pool.testWhileIdle=true
+redis.pool.timeBetweenEvictionRunsMillis=-1
+redis.pool.readTimeoutMillis=2000
