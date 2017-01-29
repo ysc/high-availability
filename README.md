@@ -248,3 +248,5 @@
                     └── conf.txt
     
     12 directories, 11 files
+
+[https://travis-ci.org/ysc/high-availability](https://travis-ci.org/ysc/high-availability)
